@@ -7,4 +7,5 @@ def seq_search(a: Sequence, key: Any) -> int:
     return -1
 
 arr = [1,2,3,4,5,6,7,8] 
-print("3의 위치 : ", seq_search(arr,5))
+i= seq_search(arr,5)
+print(f'5의 위치 : arr[{i}]')
